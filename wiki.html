@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho = introduz algo -->
+        <h1>Estudo do HTML</h1>
+        <h3>Conceitos introdutórios da Linguagem</h3>
+        <nav> <!-- Agrupa links de navegação -->
+            <ol>
+                <li><a href="#intro">Introdução</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main> <!-- Dentro da main coloca-se o conteúdo principal da página -->
+        <section>
+            <h3>Uso de Tags</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati vitae a vero saepe ipsum expedita beatae, sapiente tempora tenetur sunt quasi pariatur modi dolores repellendus, explicabo voluptas nobis. Voluptatum, velit.</p>
+        </section>
+        <section>
+            <h3>Uso de Tabelas</h3>
+            <table border="1" cellpadding="3" style="border-collapse:collapse">
+                <thead> <!-- Cabeçalho da tabela -->
+                    <th colspan="4">Usuários</th> <!-- Mescla na horizontal-->
+                    <tr> <!-- Table Row -->
+                        <th>Tipo</th>
+                        <th>Nome</th> <!-- TH = Table Header-->
+                        <th>CPF</th>
+                        <th>Data Nasc.</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Funcionário</td> <!-- Mescla na Vertical -->
+                    <td>José Almir</td>
+                    <td>000.000.00-00</td>
+                    <td>26/06/1999</td>
+                </tr>
+                <tr>
+                    <td>Maria Aparecida</td>
+                    <td>000.000.00-00</td>
+                    <td>27/01/1978</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Cliente</td>
+                    <td>Carlos José</td>
+                    <td>000.000.00-00</td>
+                    <td>01/01/1995</td>
+                </tr>
+                <tr>
+                    <td>João das Neves</td>
+                    <td>000.000.00-00</td>
+                    <td>01/01/1920</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+        <br>
+        <hr />
+        <section>
+        <br>
+            <table border="1" cellpadding="3" style="border-collapse:collapse">
+                <thead> <!-- Cabeçalho da tabela -->
+                    <th colspan="4">Atividade</th> <!-- Mescla na horizontal-->
+                    <tr> <!-- Table Row -->
+                        <th>Tipo</th>
+                        <th>Nome</th> <!-- TH = Table Header-->
+                        <th>Turno de maior interação</th>
+                        <th>Tempo na Página</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Funcionário</td> <!-- Mescla na Vertical -->
+                    <td>José Almir</td>
+                    <td>Manhã</td>
+                    <td>10 minutos</td>
+                </tr>
+                <tr>
+                    <td>Maria Aparecida</td>
+                    <td>Madrugada</td>
+                    <td>20 minutos</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Cliente</td>
+                    <td>Carlos José</td>
+                    <td>Noite</td>
+                    <td>5 mintos</td>
+                </tr>
+                <tr>
+                    <td>João das Neves</td>
+                    <td>Tarde</td>
+                    <td>40 minutos</td>
+                </tr>   
+            </tbody>
+            </table>
+        </section>
+    </main>
+    <br>
+    <hr /> <!-- Linha horizontal -->
+    <footer> <!-- Encerra o conteúdo apresentado -->
+        ©
+        <script> 
+            //Tag script introduzir Javascript
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy
+    </footer>
+</body>
+</html>
