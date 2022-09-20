@@ -1,0 +1,28 @@
+    header{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    header{
+        text-align: center;
+    }
+    table{
+        border-color: green;
+    }
+    table{
+        border-style: dotted;
+    }
+    thead{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    thead{
+        color: green;
+    }
+     thead{
+        text-align: center;
+    }
+    tbody{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    tbody{
+        text-align: center;
+    }
+
