@@ -1,0 +1,7 @@
+http://127.0.0.1:5500/html-css/cadastro.html?
+campoNome=Joao+das+Neves&campoEmail=joao%40gmail.com&
+campoSenha=1234&campoProfissao=especialista&
+campoIdioma=ingles&
+campoResumo=Sou+um+guarda+da+muralha%2C+criado+como+bastardo+de+Ned+Stark+mas+descobri+que+na+verdade+sou+um+Targeryan.&concordaTermos=on
+
+QUERY PARAMS
