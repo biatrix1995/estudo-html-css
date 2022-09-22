@@ -1,28 +1,24 @@
     header{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    header{
         text-align: center;
-    }
-    table{
-        border-color: green;
-    }
-    table{
-        border-style: dotted;
-    }
-    thead{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    thead{
         color: green;
+        background-color: white;
     }
-     thead{
+    thead{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: green;
         text-align: center;
+        background-color: white;
     }
     tbody{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    tbody{
         text-align: center;
+        background-color: white;
+    }
+    .time{
+        text-align: left;
+    }
+    body{
+        background: url(https://i.pinimg.com/originals/6e/1b/75/6e1b7599af65dab06f279d797eb47d89.png) fixed;
     }
 
