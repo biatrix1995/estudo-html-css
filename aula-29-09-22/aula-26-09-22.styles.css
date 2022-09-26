@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Arial' sans-serif;
+}
+.box1{
+    background-color: green;
+    align-self: flex-end;
+}
+.box2{
+    background-color: red;
+}
+.box3{
+    background-color: black;
+    color: white;
+    align-self: flex-start;
+}
+.box4{
+    background-color: yellow;
+    order: -1;
+}
+.container-flex1{
+    background-color: rgb(43, 205, 226);
+    height: 250px;
+    display: flex; /* Ativa o flexbox */
+    flex-direction: row; /* Distribuição vertical (colun) ou horizontal (row)*/
+    justify-content: space-around; /*pega o espaço livre e distribui igualmente entre os elementos*/
+    align-items: center;
+    /*flex-wrap: wrap; /* quebra a linha quando não tem espaço*/
+    align-content: space-around;
+    height: 350px;
+    gap: 16px;
+}
+.box1, .box2, .box3, .box4{
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.container-flex2{
+    display: flex;
+    background-color: yellow;
+    height: 200px;
+    flex-wrap: wrap;
+}
+.box5{
+    background-color: purple;
+    flex: 1; /*fracionando o espaço flexivel*/
+}
+.box6{
+    background-color: magenta;
+    flex: 2;
+    width: 200px;
+}
+.box7{
+    background-color: blue;
+    height: 200px;
+}
+/*JUSTIFY-CONTENT: alinhamento do eixo principal (hori = row, vert = column)
+space-between - espaço apenas entre cada elemento
+space-around - espaço entre elementos e limites
+space-evenly - espaço entre elementos e limites igual
+center - centraliza o grupo de elementos*/
